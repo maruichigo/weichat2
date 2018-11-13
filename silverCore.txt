@@ -1,0 +1,29 @@
+﻿using System.Collections.Generic;
+
+namespace TEC.CM.Silverlight.Core
+{
+  public class SilverlightMenuInfo
+  {
+    public static Dictionary<string, string> ProgramInfoList = new Dictionary<string, string>();
+    public static Dictionary<string, string> MonitorListProgramInfoList = new Dictionary<string, string>();
+    public static Dictionary<string, string> LogonUserInfoList = new Dictionary<string, string>();
+    public static Dictionary<string, string> MenuSettingsInfoList = new Dictionary<string, string>();
+  }
+}
+
+
+
+設定方法
+
+①Web.config
+下記追加:
+		<add key="AppInfo:CustomScCod" value="XXXX"/>
+
+②MainForm.xaml
+public override void Init()
+
+下記追加:
+            // 施設コードを「Web.config」AppInfo:CustomScCodより設定する
+            SilverlightMenuInfo.MenuSettingsInfoList.Add("CustomScCod", AppInfo.ContainsKey("CustomScCod") ? AppInfo["CustomScCod"] : string.Empty);
+
+上面内容只是测试用，不提交
