@@ -1,4 +1,8 @@
-﻿    'File OutPut
+[モード = null,ユーザーコード = 123,適用開始日 = 2018/12/20]
+適用終了表示用キャプションの取得は1件[適用終了キャプション=01]
+使用区分の取得は1件[使用区分=02]
+
+'File OutPut
     Set Fileout = fs.CreateTextFile(ThisWorkbook.Path & "\" & Cells(1, 1) & "BeanTest.java", True, True)
     For i = 2 To 100
       If InStr(Sheets(2).Cells(i, 1), "package") > 0 Then
