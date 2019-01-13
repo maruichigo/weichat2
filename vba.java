@@ -49,3 +49,19 @@ https://blog.csdn.net/babylove_BaLe/article/details/73201115
     pageSessionBean.setPageConData("Mst501",pageBean.getValues());
         str = "test";    
     }
+
+------------------------------------------------------------------------------------------------------------------------
+                                                        <!-- 入力項目テンプレート呼び出し -->
+                                                    <ui:include src="/templates/search_control_main.xhtml" >
+                                                        <ui:param name="condition" value="#{column}" />
+                                                        <ui:param name="targetIdx" value="0" />
+                                                        <c:choose> 
+                                                            <c:when test="#{pageSessionBean.getPageConData('Mst501').size() > 0 }">    <!--如果 --> 
+                                                                <ui:param name="valueit" value="#{pageSessionBean.getPageConData('Mst501')[condition.applyTo][condition.name]}" />
+                                                            </c:when>      
+                                                            <c:otherwise>  <!--否则 -->    
+                                                                <ui:param name="valueit" value="#{pageBean.values[condition.applyTo][condition.name]}" />
+                                                            </c:otherwise> 
+                                                        </c:choose>
+                                                        <ui:param name="widgetVarId" value="#{column.applyTo}_#{condition.name}" />
+                                                    </ui:include>
