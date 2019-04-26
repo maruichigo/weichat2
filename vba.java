@@ -4,3 +4,4 @@ https://www.cnblogs.com/sebastian-tyd/p/7895182.html
 https://www.updatestar.com/directdownload/tera-term/2037688
 https://pan.baidu.com/s/1RWKvUxC9e_pP67speLtIcA
 
+https://blog.csdn.net/liuhaiguang2012/article/details/79394971
