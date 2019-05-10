@@ -1,0 +1,59 @@
+﻿华为云管理网站
+https://www.huaweicloud.com/
+kaimadata
+malei/AAA222+++
+
+git仓库 账号：kaimadata/cuilei
+密码：kaima123
+
+Linux主机
+http://114.116.16.91:8080/kaimasystem/login
+0431/123456
+
+LinuxLogin
+root
+AAA111+++
+
+mySql数据库(绩效管理)
+url: 114.116.16.91:3306/ry
+username: root
+password: Kaima123
+
+mySql数据库(redmine)
+url: 120.78.231.31:3306/redmine
+username: root
+password: 1qaz2wsx
+
+select count(*) from custom_fields
+select count(*) from issues
+select count(*) from members
+select count(*) from projects
+select count(*) from trackers
+select count(*) from users
+select count(*) from custom_values
+
+5/9水平(绩效管理)-----------------------------
+77
+......
+101936
+
+5/9水平(redmine)-----------------------------
+89
+18633
+262
+30
+47
+133
+135371
+
+select * from custom_fields
+select * from issues
+select * from members
+select * from projects
+select * from trackers
+select * from users
+select * from custom_values
+
+docker ----------------------------------------
+docker images # 查看当前镜像列表
+
