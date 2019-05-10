@@ -54,6 +54,9 @@ select * from trackers
 select * from users
 select * from custom_values
 
+mysqldump -P 3306 -h 120.78.231.31 -u root -p redmine users > D:\Data\users.sql
+1qaz2wsx
+
 docker ----------------------------------------
 docker images # 查看当前镜像列表
 
