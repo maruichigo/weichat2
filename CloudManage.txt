@@ -1,4 +1,4 @@
-﻿华为云管理网站
+华为云管理网站
 https://www.huaweicloud.com/
 kaimadata
 malei/AAA222+++
@@ -60,3 +60,14 @@ mysqldump -P 3306 -h 120.78.231.31 -u root -p redmine users > D:\Data\users.sql
 docker ----------------------------------------
 docker images # 查看当前镜像列表
 
+
+        <dependency>
+            <groupId>org.primefaces</groupId>
+            <artifactId>primefaces</artifactId>
+            <version>7.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.primefaces.extensions</groupId>
+            <artifactId>primefaces-extensions</artifactId>
+            <version>7.0</version>
+        </dependency>
