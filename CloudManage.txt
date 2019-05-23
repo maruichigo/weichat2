@@ -71,3 +71,5 @@ docker images # 查看当前镜像列表
             <artifactId>primefaces-extensions</artifactId>
             <version>7.0</version>
         </dependency>
+
+http://central.maven.org/maven2/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar
