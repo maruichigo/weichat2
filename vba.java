@@ -26,3 +26,6 @@ imp system/123456@localhost:1521/sdcdb fromuser=system touser=system file='C:/sd
 
 mstsc
 114.116.83.237
+
+日光
+http://blog.sina.com.cn//s/blog_5ced1c300102y37e.html
